@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Baum-Messung</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Messung Baum erfassen</h1>
+<form id="messungForm">
+  <label for="baum">Baum-ID:</label>
+  <input type="text" id="baum" name="baum" placeholder="z.B. 001" required><br><br>
+
+  <label for="daten">Messdaten:</label><br>
+  <textarea id="daten" name="daten" rows="5" cols="40" placeholder="Höhe, Durchmesser, Zustand..." required></textarea><br><br>
+
+  <button type="submit">Absenden</button>
+</form>
+
+<script src="js/submit.js"></script>
+</body>
+</html>
