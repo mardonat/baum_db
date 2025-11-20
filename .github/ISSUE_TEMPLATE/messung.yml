@@ -1,0 +1,19 @@
+name: Neue Messung
+description: Messung oder Beobachtung erfassen
+labels: ['messung']
+body:
+  - type: input
+    id: baum
+    attributes:
+      label: Baum-ID
+      placeholder: z.B. 001
+    validations:
+      required: true
+
+  - type: textarea
+    id: daten
+    attributes:
+      label: Messdaten / Beobachtungen
+      placeholder: z.B. Höhe, Durchmesser, Zustand...
+    validations:
+      required: true
